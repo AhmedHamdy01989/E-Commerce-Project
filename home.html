@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <script src="home2.js" defer></script>
+    <title>GamesHub</title>
+    
+</head>
+<body>
+    <div class="firstline">
+        <div class="callus">
+            <button class="btn1" type="button">
+                <img src="./images/callus.png" alt="callus" width="25 px" height="25 px" class="imgPay">
+                01004506430
+            </button>
+        </div>
+
+        <div class="payslogo">
+            <img src="./images/payslogo.PNG" alt="logo">
+        </div>
+        
+    </div>
+    <nav> 
+        <div class="secondline">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo" width="200" height="150">
+                <p class="logoName">Games Hub</p>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search For Games,Toys,Video Games......" class="searchInput">
+                <button class="searchBtn">
+                    <img src="./images/search.png"  width="20" height="20" alt="search Icon" class="searchIcon">
+                </button>
+            </div>
+            <div class="cart">
+                <button class="btn2" type="button" onclick="window.location.href='cart.html'">
+                    <img src="./images/cart.jpg" alt="cart" width="50" height="50" class="cart">
+                    <span id="cart-count" class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="image-viewer">
+        <button class="prev" onclick="prevImage()">&#10094;</button>
+        <img id="product-image" src="./images/logo.png" alt="Product Image">
+        <button class="next" onclick="nextImage()">&#10095;</button>
+    </div>
+    <nav class="nMenu">
+        <div class="dMenu">
+            <h3 onclick="psf5()" class="menu">PlayStation5 Games</h3>
+            <h3 onclick="psf4()" class="menu">PlayStation4 Games</h3>
+            <h3 onclick="pcf()" class="menu">PC Games</h3>
+            <h3 onclick="conf()" class="menu">Consoles & Hardware</h3>
+        </div>
+    </nav>    
+    <div class="product-grid">
+    
+    </div>    
+    <div>
+        <button id="scrollToTopBtn" class="scroll-to-top-btn">↑</button>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./images/logo.png" alt="Logo" width="100" height="80">
+                <p class="footer-logo-text">Games Hub</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><img src="./images/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="./images/x.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="./images/g.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Games Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
